@@ -1,0 +1,106 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for 3dsmax 2017 v20200211.10"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [0],
+            "extensions": {}
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [0, 0, 0],
+            "rotation": [0, 0, 0, 1],
+            "scale": [1, 1, 1],
+            "name": "DHYS123333"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0,
+                    "extensions": {
+                        "KHR_draco_mesh_compression": {
+                            "bufferView": 0,
+                            "attributes": {
+                                "POSITION": 0,
+                                "NORMAL": 1,
+                                "TEXCOORD_0": 2
+                            }
+                        }
+                    }
+                }
+            ],
+            "name": "DHYS123333"
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "count": 2880,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "componentType": 5126,
+            "count": 559,
+            "max": [1.8710300732863332, 1.8710300732863332, 1.8710300732863332],
+            "min": [-1.8710300732863334, -1.8710300732863334, -1.8710300732863334],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "componentType": 5126,
+            "count": 559,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4511
+        }
+    ],
+    "buffers": [
+        {
+            "name": "test",
+            "byteLength": 4512,
+            "uri": "test.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [0.419607878, 0.419607878, 0.419607878, 1],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            },
+            "emissiveFactor": [0, 0, 0],
+            "alphaMode": "OPAQUE",
+            "name": "DHYS_现代卧室墙体22顶-001",
+            "doubleSided": false
+        }
+    ],
+    "extensionsRequired": ["KHR_draco_mesh_compression"],
+    "extensionsUsed": ["KHR_draco_mesh_compression"]
+}
