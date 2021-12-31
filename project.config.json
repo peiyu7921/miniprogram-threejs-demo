@@ -48,7 +48,7 @@
     },
     "compileType": "miniprogram",
     "libVersion": "2.13.0",
-    "appid": "wx21195c54e09e3d89",
+    "appid": "",
     "projectname": "miniprogram-threejs-demo",
     "debugOptions": {
         "hidedInDevtools": []
