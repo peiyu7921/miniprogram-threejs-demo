@@ -42,12 +42,12 @@ Page({
 
                     const dracoLoader = new THREE.DRACOLoader();
                     dracoLoader.setDecoderPath(
-                        "https://github.com/peiyu7921/miniprogram-threejs-demo/tree/master/draco"
+                        "http://127.0.0.1:8080/draco/"
                     );
                     gltfLoader.setDRACOLoader(dracoLoader);
 
                     gltfLoader.load(
-                        "https://github.com/peiyu7921/miniprogram-threejs-demo/raw/master/gltf/test.gltf",
+                        "http://127.0.0.1:8080/gltf/test.gltf",
                         (model) => {
                             const gltf = model.scene;
                             scene.add(gltf);
